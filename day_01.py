@@ -92,8 +92,18 @@ print(isloggedout)
 # complex number
 e = 6 + 5j
 
+
+
 # str
 a = "ankur"
+
+v = None
+
+
+
+
+
+
 
 
 
