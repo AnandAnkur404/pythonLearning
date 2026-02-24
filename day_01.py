@@ -99,12 +99,75 @@ a = "ankur"
 
 v = None
 
+x=-2
+y=3
+print(x**y) #-(2**3) -8 ** has highest precedence that -
+
+list
+#Ordered collection of elements
+#Mutable (can change)
+#Allows duplicate values
+#Can store mixed data types
+
+nums = [10, 20, 30, 40]
+print(nums[0])        # 10
+nums.append(50)
+nums[1] = 99
+print(nums)          # [10, 99, 30, 40, 50]
 
 
+#tuples
+#Ordered collection
+#Immutable (cannot change after creation)
+#Allows duplicates
+#Can store mixed data types
+
+point = (10, 20)
+
+print(point[0])      # 10
+# point[0] = 99      # Error (immutable)
+
+#dict
+student = {
+    "name": "Amit",
+    "age": 21,
+    "marks": 85
+}
+
+print(student["name"])     # Amit
+
+student["marks"] = 90
+student["city"] = "Delhi"
+
+print(student)
+
+#set
+#Unordered collection
+#Mutable
+#Stores only unique elements
+#No indexing (because unordered)
+ids = {1, 2, 3, 3, 4}
+print(ids)   # {1, 2, 3, 4}
+
+ids.add(5)
+print(ids)
+
+user = {
+    "id": 101,
+    "name": "Rohit",
+    "skills": ["Python", "SQL"],
+    "location": ("Delhi", "India"),
+    "tags": {"developer", "backend"}
+}
+
+print(user["skills"][0])        # Python
+print(user["location"][1])      # India
+print("backend" in user["tags"])  # True
 
 
-
-
+x=10
+y=10
+print(x is y)
 
 
 
