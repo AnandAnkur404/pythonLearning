@@ -162,8 +162,18 @@ print(type(t3)) #<class 'tuple'>
 t4 = (10,)
 print(type(t4)) #<class 'tuple'>
 
-#t[1] = "gfg " # TypeError: 'tuple' object does not support item assignment
+#t[1] = "gfg "  #TypeError: 'tuple' object does not support item assignment
 print(t)
+
+print('ankur' + 'anand')
+#string concate ankur anand
+
+print(len("ankur"))
+l= [10, 20, 30, 40, "hi ankur"]
+l.append(20)
+l.copy
+
+
 
 
 
