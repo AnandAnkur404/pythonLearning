@@ -9,7 +9,7 @@
 # print(int(a))
 # print(type(a))
 
-#internally "True" is measured as 1 & "False" is measured as 0
+# internally "True" is measured as 1 & "False" is measured as 0
 
 # x=int(input("Enter the first number  : "))
 # y=int(input("Enter the second number : "))
@@ -33,10 +33,10 @@
 # print(a<<2) # retuns 4
 # print(a<<3) #returns 8
 
-# PEMDAS :
-# P : Paranthesis
-# E : Exponential
-# M : Multiplication
-# D : Division
-# A : Addition
-# S : Subtraction
+# # PEMDAS :
+# # P : Paranthesis
+# # E : Exponential
+# # M : Multiplication
+# # D : Division
+# # A : Addition
+# # S : Subtraction
