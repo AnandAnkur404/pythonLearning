@@ -147,6 +147,7 @@ print(f"hi this value of x: {x}")
 
 x = 20 + 30 * 3
 print(x)
-
+print(type(x))
 y = (20 + 30) * 3
 print(y)
+print(type(y))
