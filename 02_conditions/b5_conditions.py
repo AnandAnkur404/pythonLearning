@@ -73,15 +73,15 @@
 #     case "luxury":
 #         print("your seat type is luxury")
 
-if 0:
-    print("this is true")
-else:
-    print("this is else block")
+# if 0:
+#     print("this is true")
+# else:
+#     print("this is else block")
 
-if set():
-    print("this if block will not execute")
-else:
-    print("Hi i m else block")
+# if set():
+#     print("this if block will not execute")
+# else:
+#     print("Hi i m else block")
 # 0
 # None
 # False

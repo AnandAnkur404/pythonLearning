@@ -118,6 +118,18 @@
 # else:
 #     delivery_fees = 30
 
+# leap year
+# year = int(input("Enter year: "))
+
+# if year % 400 == 0:
+#     print("Leap Year")
+# elif year % 100 == 0:
+#     print("Not a Leap Year")
+# elif year % 4 == 0:
+#     print("Leap Year")
+# else:
+#     print("Not a Leap Year")
+
 # #using ternary operator
 # delivery_fees = 0 if order_amount > 300 else 30
 

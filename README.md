@@ -38,3 +38,25 @@ False
 set()
 
 loop on python
+
+basic of loop
+    question 1: print 1 to 10 using python
+    question 2: questions on function : range(5), range(2,10), range(1, 20, 2) range(10, 0, -1)
+    question 3: first repeated charecter in input string.
+    question 4: Fibonacci number using loop
+    question 5: prime number using break statment
+pattern in loop - Nested loop   
+    question 6: table of 2 to 7 number 
+    question 7: square star
+    question 8: upper triangular matrix
+    question 9: lower triangular matrix
+    question 10: break and continue
+
+while loop
+    question 11: count the digit
+    question 12: pass so that i will not get error
+
+enumerate() - used to give numbering of all the item in the list, also we can start with particular index
+zip() - used to iterate over several iterator parallel producing tuples with an item from each one
+
+

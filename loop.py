@@ -57,3 +57,80 @@
 # for name, amount in zip(names, bills):
 #     print(f"name is {name}, amount is {amount}")
 
+# r = range(5)
+# print(r)
+# print(type(r))
+# l = list(r)
+# print(l)
+# print(type(l))
+
+# r = range(10, 20, 2) # start from 10, till 19 and add 2 at each step
+# l = list(r)
+# print(l)
+# table
+# for table in range(2, 7):
+#     for i in range(1, 11):
+#         print(table, "x", i, "=", table*i)
+#     print()
+
+# square printing
+# for i in range(5):
+#     for j in range(5):
+#         print("* ", end="")
+#     print()
+
+# upper triangular matrix
+# for i in range(5):
+#     for j in range(i+1):
+#         print("* ", end="")
+#     print()
+
+# method 2
+# for i in range(5):
+#     for j in range(5):
+#         if i>j or i==j:
+#             print("* ", end="")
+#     print()
+
+# lower triangular
+for i in range(5, 0, -1):
+    for j in range(i):
+        print("* ", end="")
+    print()
+
+# number matrix
+# rows = 5
+
+for row in range(1, 6):
+    for col in range(1, row + 1):
+        print(col, end=" ")
+    print()
+   
+# while loop palindrom number
+
+# sum of a number
+# number = int(input("enter number"))
+# n = number
+# sum=0
+# while number>0:
+#     rem = number%10
+#     sum = sum * 10 + rem
+#     number //= 10
+# print(sum)
+# to count number
+# count = 0
+# while number > 0:
+#     count += 1
+#     number //=10
+# print(count)
+
+# # range 
+# list(range(5, 10))
+# list(range(0, 10, 3))
+# list(range(-10, -100, -30))
+
+# for i in range(1, 20):
+#     if i % 2 == 0:
+#         continue
+#     print(f"your number is :{i}")
+
