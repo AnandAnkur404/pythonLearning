@@ -93,18 +93,18 @@
 #     print()
 
 # lower triangular
-for i in range(5, 0, -1):
-    for j in range(i):
-        print("* ", end="")
-    print()
+# for i in range(5, 0, -1):
+#     for j in range(i):
+#         print("* ", end="")
+#     print()
 
 # number matrix
 # rows = 5
 
-for row in range(1, 6):
-    for col in range(1, row + 1):
-        print(col, end=" ")
-    print()
+# for row in range(1, 6):
+#     for col in range(1, row + 1):
+#         print(col, end=" ")
+#     print()
    
 # while loop palindrom number
 
@@ -129,8 +129,63 @@ for row in range(1, 6):
 # list(range(0, 10, 3))
 # list(range(-10, -100, -30))
 
+
 # for i in range(1, 20):
 #     if i % 2 == 0:
 #         continue
 #     print(f"your number is :{i}")
 
+
+# question - check vowel in string
+# s = input("enter string")
+# count = 0
+# vowel = "aeiouAEIOU"
+# for char in s:
+#     if char in vowel:
+#         count = count+1
+# print(count)
+
+# question - reverse a string
+# s = input("enter string to reverse")
+# n = len(s) - 1
+# rev = ""
+# while n>=0:
+#     rev = rev + s[n]
+#     n = n - 1
+# print(rev)
+
+# factorial of a number
+# num = 5
+# fact = 1
+# for i in range(1, num+1):
+#     fact = fact * i
+# print(fact)
+
+
+num = 6
+isPrime = True
+# for i in range(2, num):
+#     if num % i == 0:
+#         isPrime = False
+#         break
+# print(isPrime)
+
+for i in range(2, int(num**0.5)+ 1):
+    if num % i == 0:
+        isPrime = False
+        break
+print(isPrime)
+
+# in range prime number
+n = int(input("Enter limit: "))
+
+for num in range(2, n + 1):
+    is_prime = True
+
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(num, end=" ")
